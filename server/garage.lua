@@ -84,6 +84,7 @@ QBCore.Functions.CreateCallback('qb-phone:server:GetGarageVehicles', function(so
                     y = v.y,
                     z = v.z,
                     h = v.h,
+                    vehicle = v.vehicle,
                     damage = v.damage,
                     fakeplate = v.fakeplate or nil
                 }
@@ -103,6 +104,7 @@ QBCore.Functions.CreateCallback('qb-phone:server:GetGarageVehicles', function(so
                     y = v.y,
                     z = v.z,
                     h = v.h,
+                    vehicle = v.vehicle,
                     damage = v.damage,
                     fakeplate = v.fakeplate or nil
                 }
